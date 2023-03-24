@@ -1,0 +1,83 @@
+/* 
+EBEBEB
+E4E4E4
+818181
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #2c2c2c;
+}
+
+.form-container {
+  background: white;
+  margin: 150px auto;
+  width: 400px;
+  border-radius: 25px;
+}
+
+form {
+  padding: 20px;
+}
+
+form h2 {
+  text-align: center;
+}
+
+form .input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background: rgb(144, 57, 225);
+  color: white;
+  border: 0;
+  font-weight: bold;
+}
+
+form .input-container input,
+input[type="submit"] {
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+}
+
+form .input-container input {
+  border: 1px solid #e4e4e4;
+  color: #646464;
+  padding: 0 55px 0 25px;
+}
+
+form .input-container input::placeholder {
+  color: #818181;
+}
+
+svg {
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 12px);
+  color: #818181;
+}
+
+.options-container {
+  padding: 0 20px;
+  margin: 20px auto;
+  color: #818181;
+}
+
+.options-container .checkbox-container,
+a {
+  display: inline-block;
+  width: 50%;
+}
+
+.options-container a {
+  text-align: right;
+  color: rgba(145, 89, 197, 0.74);
+  text-decoration: none;
+}
